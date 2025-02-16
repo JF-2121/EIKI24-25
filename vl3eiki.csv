@@ -1,0 +1,23 @@
+"Introduction to AI Systems; What is an AI system?" | An AI system is defined as the study of rational agents and their environments, focusing on optimizing specific measures using intelligent behaviors.
+"Goal-Based Agents; What is the main focus of a goal-based agent?" | Goal-based agents project consequences of actions into the future and compare them to predefined goals to determine the best course of action.
+"Problem-Solving Agents; What are problem-solving agents focused on?" | Problem-solving agents focus on achieving their goals by systematically exploring possible solutions.
+"State Space Definition; What is a state space in problem-solving?" | A state space is the set of all possible situations (states) that can be reached from an initial state through a series of actions.
+"Single-State Problem; What are the four components of a single-state problem?" | The components include: 1) State Space & Initial State, 2) Descriptions of Actions, 3) Goal Test, and 4) Costs associated with actions.
+"Tree Search Algorithms; How are tree search algorithms structured?" | Tree search algorithms treat the state space as a tree, where each node represents a state and edges represent actions.
+"Uninformed Search; What characterizes uninformed search strategies?" | Uninformed search strategies have no prior knowledge about the domain and expand nodes systematically without using heuristics.
+"Breadth-First Search (BFS); What is the main characteristic of BFS?" | BFS explores all nodes level by level, ensuring completeness and optimality if all actions have equal cost, but has high memory usage.
+"Uniform-Cost Search (UCS); How does UCS differ from BFS?" | UCS expands nodes based on the lowest cumulative cost, making it optimal even when costs vary between actions.
+"Depth-First Search (DFS); What is a key limitation of DFS?" | DFS may fail to find a solution in infinite-depth spaces and does not guarantee an optimal solution.
+"Iterative Deepening Search; What is the advantage of Iterative Deepening Search?" | It combines the space efficiency of DFS with the completeness of BFS by incrementally increasing the depth limit.
+"Bidirectional Search; How does bidirectional search work?" | It starts from both the initial and goal states simultaneously and stops when paths from both directions meet, reducing search time.
+"Heuristics; What role do heuristics play in informed search?" | Heuristics provide a rule of thumb to estimate the cost of reaching the goal, guiding the search more efficiently than uninformed strategies.
+"Greedy Best-First Search; What is the key idea behind Greedy Best-First Search?" | It expands nodes with the lowest estimated cost to the goal (using the heuristic) but may get stuck in local minima.
+"A* Search; How does A* search optimize pathfinding?" | A* uses the evaluation function f(n) = g(n) + h(n), where g(n) is the cost so far and h(n) is the heuristic estimate to the goal, ensuring optimality if h is admissible.
+"Admissible Heuristics; What makes a heuristic admissible?" | A heuristic is admissible if it never overestimates the true cost to reach the goal, ensuring that A* search finds the optimal solution.
+"Consistent Heuristics; What defines a consistent heuristic?" | A heuristic is consistent if the estimated cost from one node to another does not exceed the actual cost plus the heuristic from the successor node to the goal.
+"Relaxed Problems; How can relaxed problems be used to design heuristics?" | Relaxed problems have fewer constraints, and the cost of their optimal solution can serve as an admissible heuristic for the original problem.
+"Dominance of Heuristics; Why is heuristic dominance important?" | A dominant heuristic reduces the number of nodes expanded by providing a closer estimate to the true cost, thus making the search more efficient.
+"Combining Heuristics; How can multiple heuristics be combined?" | By taking the maximum value of multiple admissible heuristics, the combined heuristic remains admissible and often leads to fewer node expansions.
+"Graph Search vs Tree Search; What is the advantage of graph search over tree search?" | Graph search detects and avoids repeated states, reducing redundant expansions and saving time and memory.
+"Iterative Deepening A* (IDA*); What is the key difference between A* and IDA*?" | IDA* uses a depth-first approach with an increasing f-cost limit, optimizing memory usage while maintaining completeness and optimality.
+"Memory-Bounded A* Search; What are memory-bounded alternatives to A*?" | Algorithms like Recursive Best-First Search (RBFS) and Simplified Memory-Bounded A* (SMA*) reduce memory usage by discarding less promising nodes.

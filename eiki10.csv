@@ -1,0 +1,12 @@
+"Machine Ethics; Warum ist Machine Ethics wichtig?" | Mit der zunehmenden Macht und Präsenz von KI-Systemen ist es entscheidend, ihnen ein moralisches Verständnis beizubringen, um unerwünschtes Verhalten zu vermeiden.
+"Gebru et al.; Welche Rolle spielen Datasheets for Datasets?" | Datasheets stellen sicher, dass Datensätze auf problematische Inhalte wie Rassismus, Gewalt oder pornografisches Material überprüft werden, um ethische Probleme zu vermeiden.
+"Sentient AI; Welche Gefahr birgt Sentient AI?" | Sentient AI könnte unbeabsichtigte Konsequenzen wie ethisches Fehlverhalten, Missbrauch von Daten oder sogar Sicherheitsrisiken hervorrufen.
+"Fair Diffusion; Was ist Fair Diffusion?" | Fair Diffusion lehrt Text-to-Image-Modelle Fairness, indem es sicherstellt, dass generierte Inhalte keine Vorurteile oder schädlichen Stereotypen verstärken.
+"Safe Diffusion; Wie funktioniert Safe Diffusion?" | Safe Diffusion filtert unangemessene Inhalte durch eine Klassifizierung von Nutzereingaben und führt den Diffusionsprozess sicher aus.
+"Transformer und Scale; Warum sind Transformermodelle entscheidend?" | Transformermodelle revolutionieren KI durch Self-Supervised Learning und enorme Skalierbarkeit, was tiefere und effektivere Modelle ermöglicht.
+"Hybrid AI; Was ist Hybrid AI?" | Hybrid AI kombiniert Deep Learning mit wissensbasierten Systemen und logischem Schließen, um robustere und interpretierbare Modelle zu schaffen.
+"Machine Ethics Calls; Wie können Erklärbarkeit und Interaktion Machine Ethics fördern?" | Erklärbare KI und interaktive Systeme helfen, moralisches Verhalten zu verstehen und anzupassen, indem rationale Entscheidungen analysiert und überarbeitet werden.
+"Dataset Bias; Welche Risiken birgt Dataset Bias?" | Verzerrungen in Datensätzen können KI-Modelle dazu bringen, Stereotypen zu verstärken oder falsche Schlussfolgerungen zu ziehen.
+"Rejection Sampling; Wie kann Content Filtering durchgeführt werden?" | Durch Rejection Sampling werden Eingaben abgelehnt, die inakzeptable Inhalte enthalten, um die Generierung sicherer Ergebnisse zu gewährleisten.
+"Causal Parrots; Warum sind Large Language Models (LLMs) keine kausalen Modelle?" | LLMs können Kausalität simulieren, haben jedoch keine echte kausale Logik und können daher nur begrenzt auf unerwartete Situationen reagieren.
+"AI Understanding Ethics; Wie kann KI moralische Normen lernen?" | KI kann moralische Fragen wie \"Soll ich lügen?\" durch maschinelles Lernen und die Analyse von Normen beantworten und auf moralische Richtungen optimiert werden.

@@ -1,0 +1,34 @@
+Title|Question|Answer
+"AI System Recap"|What defines an AI system?|AI systems consist of rational agents acting in environments to optimize specific measures, using various types of intelligence strategies.
+"Goal-Based Agent Example"|What characterizes a goal-based agent?|Goal-based agents project action outcomes into the future, compare expected results to goals, and adjust behavior based on this comparison.
+"Problem-Solving Agents"|What is the focus of problem-solving agents?|Problem-solving agents aim to achieve defined goals and often need human-readable problems reformulated for computational processing.
+"Formulating a Solvable Problem"|What are the steps to formulate a solvable problem?|1) Define the goal, 2) Formulate the problem based on the goal, translating it into components an agent can process.
+"State Space and Transitions"|What are state and transition definitions in problem-solving?|A state represents a situation in the environment; transitions define possible actions to move between states.
+"Single-State Problem Components"|What defines a single-state problem?|A single-state problem includes state space, initial state, actions, goal test, and cost functions for each action.
+"State Space Graph"|What is the purpose of a state-space graph?|It maps all states reachable from the initial state, forming a structure to visualize paths to the goal.
+"Example Problem: Route to Bucharest"|How is finding a route defined as a problem?|Initial state: Arad; Goal: Reach Bucharest; Actions: Define reachable cities; Cost: Based on travel distance or speed.
+"Problem of Real-World Complexity"|How is real-world complexity managed in problem-solving?|By using abstraction to simplify the problem, removing unnecessary details to make problem-solving computationally feasible.
+"8-Puzzle Problem"|What are the components of the 8-puzzle problem?|States: Tile locations; Actions: Move blank tile; Goal test: Match goal layout; Path cost: Steps required.
+"8-Queens Problem"|What defines the 8-Queens problem?|Place 8 queens on a chessboard so no two queens threaten each other; States: Queen configurations; Goal: No threats; Path cost: Not of primary interest.
+"Planning Problems"|What is a planning problem in AI?|It involves starting from an initial state, transforming through actions to reach a goal while anticipating future states and outcomes.
+"Tree Search Concept"|What is a tree search algorithm?|A search method that explores possible paths by iteratively expanding nodes to find a path from the root to the goal.
+"Search Strategy Dimensions"|What metrics evaluate search strategies?|Completeness, time complexity, space complexity, and optimality, based on branching factor, goal depth, and tree depth.
+"Uninformed Search Overview"|What are common uninformed search strategies?|Breadth-First Search (BFS), Depth-First Search (DFS), Uniform-Cost Search (UCS), Depth-Limited, Iterative Deepening, and Bidirectional Search.
+"Uniform-Cost Search (UCS)"|What is the goal of Uniform-Cost Search?|To find a path with the lowest cumulative cost by expanding the least expensive nodes first, using a priority queue.
+"BFS vs. DFS Comparison"|How does BFS differ from DFS?|BFS uses a FIFO approach, exploring level by level and guaranteeing optimality for equal-cost steps; DFS explores depth-first, with a LIFO stack, faster but not always optimal.
+"Iterative Deepening Search"|What is iterative deepening search (IDS)?|A depth-limited search that increases depth incrementally; combines DFS's low memory use with BFS's completeness.
+"Bidirectional Search"|How does bidirectional search work?|Starts searches simultaneously from the initial and goal states, stopping when paths meet, reducing time and space complexity.
+"Uninformed Search Limitations"|What is a key limitation of uninformed search?|Exponential time and space complexity, making it impractical for large problem spaces without additional information.
+"Informed Search Introduction"|What characterizes informed search algorithms?|Informed searches use heuristics or extra knowledge to prioritize nodes, guiding the search toward goal states more efficiently.
+"Heuristics Overview"|What is a heuristic in informed search?|A rule or function estimating the cost to reach the goal, providing a guide to expand the most promising nodes first.
+"Greedy Best-First Search"|What does Greedy Best-First Search prioritize?|Expands nodes with the smallest estimated distance to the goal (heuristic) but can get stuck in local minima without reaching the goal.
+"A* Search"|What is A* Search's evaluation function?|A* uses f(n) = g(n) + h(n), where g(n) is the cost so far, and h(n) is the heuristic cost to the goal, aiming to find an optimal path.
+"Optimality of A* Search"|Under what conditions is A* optimal?|A* is optimal if the heuristic is admissible (never overestimates) and consistent (adheres to triangle inequality).
+"Admissible Heuristics"|What is an admissible heuristic?|A heuristic that never overestimates the true cost to the goal, ensuring that A* finds an optimal solution if such a heuristic is used.
+"Consistent Heuristics"|What is a consistent heuristic?|A heuristic where the estimated cost does not exceed the cost between successive nodes plus the remaining estimate to the goal.
+"Heuristic Dominance"|Why is heuristic dominance important in A*?|Dominant heuristics (closer estimates) reduce node expansion, improving search efficiency while still guiding to optimal solutions.
+"Relaxed Problems and Heuristics"|What are relaxed problems in heuristic design?|Problems with fewer restrictions than the original, used to design heuristics that guarantee admissibility by providing achievable cost estimates.
+"Combining Heuristics"|How can multiple heuristics be combined effectively?|By taking the maximum value among admissible heuristics, the combined heuristic remains admissible and often more effective.
+"Graph vs. Tree Search"|What is the benefit of graph search over tree search?|Graph search detects and avoids repeated states, saving time and memory by not re-exploring previously expanded nodes.
+"Informed Search Limits"|What is a memory-bound alternative to A*?|Memory-bounded searches like IDA*, RBFS, or SMA* limit memory use by discarding the least promising nodes or iterating depth.
+"Summary of Search Concepts"|What key concepts are covered in search strategies?|Problem formulation, tree/graph structures, uninformed vs. informed strategies, BFS, DFS, Greedy Best-first, A*, and heuristics.

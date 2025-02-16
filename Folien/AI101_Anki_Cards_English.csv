@@ -1,0 +1,11 @@
+Title,Question,Answer
+**What is an AI System**,What are the two main components of an AI system?,Environment and Agent.
+**Environment Definition**,How is an environment defined in the context of AI?,The environment is the surroundings or conditions in which an AI agent operates; it can be real or artificial.
+**Discrete vs Continuous Environments**,What is a discrete environment?,"An environment with a limited number of distinct, clearly defined states."
+**Observable vs Unobservable Environments**,What makes an environment observable?,"If the complete state of the environment can be determined at each time point, it is observable; otherwise, it is partially observable or unobservable."
+**Characteristics of Environments**,What differentiates static from dynamic environments?,A static environment does not change while an agent acts; a dynamic environment can change independently of the agent's actions.
+**Types of Agents**,What is a reflex agent?,"An agent that selects actions based only on the current percept, ignoring history."
+**Model-based Agents**,How do model-based agents differ from reflex agents?,"Model-based agents maintain a model of the environment to keep track of the world state, unlike reflex agents."
+**Rational Agents**,What defines a rational action?,An action that maximizes the agent’s expected performance based on its knowledge.
+**Performance Measurement**,Why is performance measurement important for AI agents?,Performance measurement is critical as it evaluates how well an agent’s actions achieve the desired outcome.
+**Utility-based Agents**,What is the role of a utility function in AI?,"A utility function rates actions or scenarios based on the desired result, providing a scale to measure preferences."

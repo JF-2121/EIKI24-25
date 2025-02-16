@@ -1,0 +1,18 @@
+"Machine Learning; What is machine learning?" | Machine learning is the science of programming computers to learn patterns and improve automatically from data or experience, without explicit programming.
+"Machine Learning vs. AI; How is machine learning related to artificial intelligence?" | Machine learning is a subset of artificial intelligence focusing on data-driven systems, while AI also includes rule-based systems, planning, and logical inference.
+"Learning; Why is learning important for intelligent systems?" | Learning allows systems to adapt to unknown environments, improve performance over time, and construct solutions without explicit programming.
+"Types of Learning; What are the main types of learning in machine learning?" | 1. Supervised Learning (uses labeled data), 2. Unsupervised Learning (uses unlabeled data), 3. Reinforcement Learning (uses rewards from the environment).
+"Supervised Learning; What is supervised learning?" | A learning approach that uses labeled datasets to map inputs to outputs, like classification (discrete outputs) or regression (continuous outputs).
+"Unsupervised Learning; What is unsupervised learning?" | A learning approach where the system finds patterns and similarities in unlabeled data, like clustering or dimensionality reduction.
+"Reinforcement Learning; What is reinforcement learning?" | An agent learns by interacting with an environment, receiving rewards or penalties, and optimizing its actions to maximize cumulative rewards.
+"Generalization; What is generalization in machine learning?" | Generalization refers to a model's ability to perform well on new, unseen data after being trained on a specific dataset.
+"Overfitting; What is overfitting?" | Overfitting occurs when a model learns the training data too well, including noise, and fails to generalize to new data.
+"Overfitting Mitigation; How can overfitting be mitigated?" | 1. Use cross-validation. 2. Regularization techniques. 3. Data augmentation. 4. Simplify the model. 5. Use ensemble methods.
+"Neural Networks; What is a neural network?" | A neural network is a computational model inspired by the human brain, consisting of layers of interconnected nodes (neurons) that process information.
+"Perceptron; What is a perceptron?" | A perceptron is the simplest type of artificial neuron that computes a weighted sum of its inputs and applies an activation function to produce an output.
+"Activation Functions; What is an activation function?" | An activation function introduces non-linearity to a neural network, enabling it to learn complex patterns. Examples include sigmoid, ReLU, and tanh.
+"Training a Neural Network; How is a neural network trained?" | A neural network is trained by minimizing a loss function using optimization algorithms like gradient descent and adjusting weights through backpropagation.
+"Gradient Descent; What is gradient descent?" | Gradient descent is an optimization algorithm that adjusts model weights by moving in the direction of the steepest descent of the loss function to minimize error.
+"Loss Function; What is a loss function?" | A loss function quantifies the difference between the predicted outputs and the actual values, guiding the model's learning process.
+"Feature Engineering; What is feature engineering?" | Feature engineering is the process of selecting, transforming, and creating relevant features from raw data to improve model performance.
+"Applications; What are practical applications of machine learning?" | Applications include speech recognition, image recognition, medical diagnosis, finance, robotics, natural language processing, and traffic prediction.

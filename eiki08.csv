@@ -1,0 +1,16 @@
+"Uncertainty; Warum ist Unsicherheit in der KI wichtig?" | Unsicherheit ist allgegenwärtig. Agenten müssen lernen, Entscheidungen trotz unvollständiger und fehlerhafter Informationen zu treffen.
+"Probabilities; Wie helfen Wahrscheinlichkeiten bei Unsicherheiten?" | Wahrscheinlichkeiten quantifizieren den Grad des Glaubens, dass ein Ereignis eintritt, und ermöglichen logisches Schließen bei Unsicherheit.
+"Kolmogorov's Axiome; Was sind die Axiome der Wahrscheinlichkeiten?" | 1. Wahrscheinlichkeiten liegen zwischen 0 und 1. 2. Wahrscheinlichkeiten von sicheren Ereignissen sind 1, unmögliche Ereignisse 0. 3. Die Wahrscheinlichkeit der Vereinigung disjunkter Ereignisse ist die Summe ihrer Wahrscheinlichkeiten.
+"Dutch Book Theorem; Was besagt das Dutch Book Theorem?" | Wenn ein Agent Wahrscheinlichkeiten definiert, die die Axiome verletzen, kann er gezwungen werden, durch Wetten unabhängig vom Ausgang Geld zu verlieren.
+"Random Variables; Was ist eine Zufallsvariable?" | Eine Zufallsvariable ist eine Funktion, die Ereignissen Werte zuordnet, z. B. Wetter: \\{sonnig, regnerisch\\}.
+"Joint Distribution; Was ist eine gemeinsame Verteilung?" | Eine gemeinsame Verteilung beschreibt die Wahrscheinlichkeit kombinierter Ereignisse mehrerer Variablen, z. B. \\(P(X=x \\land Y=y)\\).
+"Marginalization; Was ist Marginalisierung?" | Marginalisierung bedeutet, die Wahrscheinlichkeiten für eine Teilmenge von Variablen zu berechnen, indem andere Variablen summiert werden.
+"Conditional Probabilities; Was ist eine bedingte Wahrscheinlichkeit?" | Die Wahrscheinlichkeit eines Ereignisses \\(X=x\\), gegeben dass \\(Y=y\\) wahr ist. Formel: \\(P(X|Y) = P(X \\land Y) / P(Y)\\).
+"Bayes' Rule; Was besagt die Bayes'sche Regel?" | \\(P(H|E) = P(E|H) \\cdot P(H) / P(E)\\). Sie beschreibt, wie man Posterior-Wahrscheinlichkeiten berechnet, basierend auf neuen Beweisen.
+"Bayes' Rule Beispiel; Wie wird Bayes' Regel auf einen AIDS-Test angewendet?" | Bei einem positiven Test und einer Prävalenz von 0.0001 kann mit Bayes' Regel die Wahrscheinlichkeit einer Infektion berechnet werden.
+"Unabhängigkeit; Wann sind Variablen unabhängig?" | Zwei Variablen \\(X\\) und \\(Y\\) sind unabhängig, wenn \\(P(X|Y) = P(X)\\) und \\(P(X \\land Y) = P(X) \\cdot P(Y)\\).
+"Syntax von Propositionen; Welche Arten von Zufallsvariablen gibt es?" | 1. Boolean: wahr/falsch (z. B. \\(hasUmbrella=true\\)). 2. Diskret: endliche Werte (z. B. \\(Weather=rain\\)). 3. Kontinuierlich: unendliche Werte (z. B. \\(Temp>23\\)).
+"Biases; Welche Biases beeinflussen Entscheidungsfindung?" | Beispiele: Verfügbarkeits-Bias, Anker-Bias, Konservatismus. Diese Verzerrungen beeinflussen, wie Menschen Unsicherheit wahrnehmen.
+"AI and Uncertainty; Wie geht KI mit Unsicherheit um?" | KI nutzt Wahrscheinlichkeitsmodelle, um Unsicherheiten zu reduzieren, z. B. durch Marginalisierung und Bayes' Regel.
+"Joint Distributions; Warum sind gemeinsame Verteilungen komplex?" | Gemeinsame Verteilungen erfordern \\(O(2^n)\\) Speicherplatz für \\(n\\) Variablen. Unabhängigkeiten können die Komplexität reduzieren.
+"Summary; Was sind die Hauptkonzepte der Vorlesung?" | 1. Unsicherheit und Wahrscheinlichkeiten. 2. Bayes' Regel. 3. Bedingte Wahrscheinlichkeiten. 4. Marginalisierung. 5. Biases und Entscheidungsfindung.
