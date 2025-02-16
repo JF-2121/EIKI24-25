@@ -1,0 +1,23 @@
+Reinforcement Learning; Was ist Reinforcement Learning? | Reinforcement Learning ist ein Ansatz, bei dem ein Agent durch Interaktion mit einer Umgebung versucht, eine optimale Strategie zur Maximierung seiner Belohnung zu lernen.
+Reinforcement Learning; Was ist das Ziel von Reinforcement Learning? | Das Ziel ist es, eine optimale Policy zu finden, die den kumulativen zukünftigen Reward maximiert.
+Reinforcement Learning; Was ist ein Markov Decision Process (MDP)? | Ein MDP besteht aus Zuständen (S), Aktionen (A), einer Übergangsfunktion (T) und einer Belohnungsfunktion (R), um Entscheidungsprobleme zu modellieren.
+Reinforcement Learning; Wie unterscheidet sich Reinforcement Learning von Supervised Learning? | Im Reinforcement Learning gibt es keine korrekten Eingabe-Ausgabe-Paare, und suboptimale Aktionen werden nicht explizit korrigiert.
+Reinforcement Learning; Was ist das Credit Assignment Problem? | Das Problem besteht darin, zu bestimmen, welche Aktionen in einer Abfolge von Entscheidungen für die erhaltene Belohnung verantwortlich sind.
+Grid World; Was ist das Grid World Beispiel? | Es ist eine Umgebung, in der ein Agent sich durch ein Gitter bewegt, Belohnungen sammelt und Hindernissen ausweichen muss.
+Reinforcement Learning; Was ist eine Policy? | Eine Policy π(s) gibt für jeden Zustand s eine Aktion a vor, die der Agent ausführen soll.
+MDPs; Was ist eine optimale Policy? | Eine Policy, die den erwarteten Nutzen für jeden Zustand maximiert.
+MDPs; Was ist die Bellman-Gleichung? | Sie beschreibt den optimalen Wert eines Zustands in Abhängigkeit von möglichen zukünftigen Zuständen und deren Belohnungen.
+Reinforcement Learning; Warum verwendet man Discounted Rewards? | Um sicherzustellen, dass zukünftige Belohnungen weniger wichtig als sofortige Belohnungen sind und die Konvergenz der Algorithmen zu garantieren.
+Reinforcement Learning; Was ist Value Iteration? | Ein Algorithmus zur Berechnung der optimalen Werte für Zustände durch iteratives Aktualisieren mit der Bellman-Gleichung.
+Reinforcement Learning; Was ist Temporal-Difference (TD) Learning? | Eine Methode, die schrittweise Belohnungen nutzt, um Werte ohne ein vollständiges Modell der Umwelt zu lernen.
+Q-Learning; Was ist Q-Learning? | Ein Algorithmus, der Q-Werte für Zustands-Aktions-Paare aktualisiert, um eine optimale Policy zu erlernen.
+Q-Learning; Welche Bedingung muss erfüllt sein, damit Q-Learning konvergiert? | Der Agent muss die Umgebung ausreichend erkunden und die Lernrate muss langsam genug abnehmen.
+Exploration vs. Exploitation; Was ist das Exploration-Exploitation-Dilemma? | Der Agent muss zwischen dem Erkunden neuer Zustände und dem Nutzen bereits bekannter optimaler Aktionen abwägen.
+Deep Q-Networks (DQN); Was ist ein Deep Q-Network? | Eine Erweiterung von Q-Learning, bei der ein neuronales Netzwerk Q-Werte approximiert.
+Reinforcement Learning; Was ist der Unterschied zwischen Model-Based und Model-Free RL? | Model-Based RL nutzt ein gelerntes oder bekanntes Modell der Umwelt, während Model-Free RL direkt aus Interaktionen lernt.
+Policy Learning; Was ist Policy Search? | Ein Ansatz, bei dem direkt eine Policy optimiert wird, anstatt Q-Werte oder Wertfunktionen zu lernen.
+AlphaZero; Was ist AlphaZero? | Ein Reinforcement-Learning-System von DeepMind, das Brettspiele durch Selbstspiel und neuronale Netzwerke meistert.
+AlphaZero; Welche Hauptkomponenten hat AlphaZero? | Ein neuronales Netzwerk für Wert- und Policy-Schätzungen, eine Baumsuche (MCTS) und ein Selbstspiel-Trainingsmechanismus.
+AlphaZero; Was ist Monte-Carlo Tree Search (MCTS)? | Eine Baumsuchstrategie, die für Entscheidungsfindung in Spielen genutzt wird, indem sie simulierte Spiele auswertet.
+AlphaZero; Wie verbessert AlphaZero seine Policy? | Durch selbstgenerierte Trainingsdaten aus Selbstspielen und verbesserte neuronale Netzwerke.
+AlphaZero; Was ist der PUCT-Algorithmus? | Eine Erweiterung von MCTS, die Exploration und Exploitation durch Upper Confidence Bounds für Aktionen ausbalanciert.
